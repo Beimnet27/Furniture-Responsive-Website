@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+    <ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+</div>
+<div class="container">
+    <div class="display-container">
+        <div class="buttons">
+        <button class="btn left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="btn right" onclick="plusDivs(1)">&#10095;</button>
+        </div>
+        <img class="mySlides" src="image/Img6.jpg">
+        <img class="mySlides" src="image/Img4.jpg">
+        <img class="mySlides" src="image/Img5.jpg">
+        <img class="mySlides" src="image/Img8.jpg">
+      </div>
+    <div class="welcome">
+        <h1>Tibeb Furniture</h1>
+        <p><em>For The Comfort You Deserve</em> </p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor provident veniam repellat vero,
+         dolorum pariatur officiis adipisci error harum laudantium ipsam sed, consectetur esse ducimus, qui
+         maxime earum voluptatibus? Harum!</p>
+         <input type="button" value="Order Product">
+    </div>
+</div>
+<div class="footer">
+    <img src="image/trophy.png" width="96px" height="96px" alt="">
+</div>
+<script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+    
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+    
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      x[slideIndex-1].style.display = "block";  
+    }
+    </script>
+</body>
+</html>

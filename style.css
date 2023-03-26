@@ -1,0 +1,60 @@
+body{
+  background-color: #F9F1E7;
+}
+ul {
+    margin-top: 0%;
+    list-style-type: none;
+    margin-right: 0;
+    padding: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+    padding: 10px;
+    width: 23%;
+    background-color: #F9F1E7;
+    display: inline;
+    margin-top: 0px;
+  }
+  li:hover{
+    background-color: #a09384;
+  }
+  .buttons{
+    float: right;
+  }
+  .btn{
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    float: left;
+    border-radius: 50%;
+  }
+  .btn:hover{
+    background-color: #E89F71;
+  }
+  .mySlides{
+    width: 90%;
+    height: 490px;
+    margin-left: 0px;
+  }
+  .welcome{
+    position: absolute;
+    top: 120px;
+    left: 130px;
+    text-align: center;
+    opacity: 0.6;
+    background-color: #FFFFFF;
+    width: 450px;
+    height:450px;
+  }
+  h1{
+    opacity: 1;
+    font-size: 2.8em;
+  }
+  input{
+    width: 150px;
+    height: 40px;
+    font-size: 1.2em;
+    background-color: #E89F71;
+  }
