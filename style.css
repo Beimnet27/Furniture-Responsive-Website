@@ -1,6 +1,8 @@
 body{
   background-color: #F9F1E7;
 }
+/*For Large Size windows*/
+@media (min-width:992px){
 ul {
     margin-top: 0%;
     list-style-type: none;
@@ -43,7 +45,7 @@ ul {
     top: 120px;
     left: 130px;
     text-align: center;
-    opacity: 0.6;
+    opacity: 0.7;
     background-color: #FFFFFF;
     width: 450px;
     height:450px;
@@ -58,3 +60,12 @@ ul {
     font-size: 1.2em;
     background-color: #E89F71;
   }
+}
+/*For Miduim Size windows*/
+@media (min-width:992px){
+
+}
+/*For Small Size windows*/
+@media (min-width:768px ) and (max-width:991px){
+
+}
