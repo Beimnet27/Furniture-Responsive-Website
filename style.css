@@ -1,22 +1,26 @@
 body{
+  margin-top: 0px;
+  padding: 0px;
   background-color: #F9F1E7;
 }
 /*For Large Size windows*/
 @media (min-width:992px){
 ul {
+  display: inline-block;
     margin-top: 0%;
     list-style-type: none;
     margin-right: 0;
     padding: 0;
     width: 100%;
   }
-  
+  .nav{
+    background-color: #162D59;
+  }
   li {
     float: left;
     padding: 10px;
     width: 23%;
-    background-color: #F9F1E7;
-    display: inline;
+    background-color: #162D59;
     margin-top: 0px;
   }
   li:hover{
@@ -33,32 +37,37 @@ ul {
     border-radius: 50%;
   }
   .btn:hover{
-    background-color: #E89F71;
+    background-color: #fa7d2fee;
+  }
+  .display-container{
+    width: 650px;
+    height: 520px;
   }
   .mySlides{
-    width: 90%;
-    height: 490px;
+    width: 100%;
+    height: 100%;
     margin-left: 0px;
   }
   .welcome{
     position: absolute;
     top: 120px;
-    left: 130px;
+    left: 730px;
     text-align: center;
-    opacity: 0.7;
-    background-color: #FFFFFF;
-    width: 450px;
+    background-color: #162D59;
+    width: 490px;
     height:450px;
   }
   h1{
     opacity: 1;
     font-size: 2.8em;
+    color: #F9F1E7;
+    text-decoration-line: underline;
   }
   input{
     width: 150px;
     height: 40px;
     font-size: 1.2em;
-    background-color: #E89F71;
+    background-color: #fa7d2fee;
   }
 }
 /*For Miduim Size windows*/
