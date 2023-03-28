@@ -26,7 +26,9 @@
         <img class="mySlides" src="image/Img4.jpg">
         <img class="mySlides" src="image/Img5.jpg">
         <img class="mySlides" src="image/Img8.jpg">
+        
       </div>
+    </div>
     <div class="welcome">
         <h1>Tibeb Furniture</h1>
         <p><em>For The Comfort You Deserve</em> </p>
@@ -35,10 +37,6 @@
          maxime earum voluptatibus? Harum!</p>
          <input type="button" value="Order Product">
     </div>
-</div>
-<div class="footer">
-    <img src="image/trophy.png" width="96px" height="96px" alt="">
-</div>
 <script>
     var slideIndex = 1;
     showDivs(slideIndex);
@@ -46,7 +44,6 @@
     function plusDivs(n) {
       showDivs(slideIndex += n);
     }
-    
     function showDivs(n) {
       var i;
       var x = document.getElementsByClassName("mySlides");
@@ -58,5 +55,9 @@
       x[slideIndex-1].style.display = "block";  
     }
     </script>
+     <footer class="foot">
+      <p>Contact:</p>
+      <p><a href="#">0910138784</a></p>
+    </footer> 
 </body>
 </html>
