@@ -15,11 +15,13 @@ ul {
   }
   .nav{
     background-color: #162D59;
+    margin-bottom: 40px;
   }
   li {
     float: left;
     padding: 10px;
     width: 23%;
+    font-size: 18px;
     background-color: #162D59;
     margin-top: 0px;
   }
@@ -27,6 +29,7 @@ ul {
     background-color: #a09384;
   }
   .buttons{
+    position: absolute;
     float: right;
   }
   .btn{
@@ -41,7 +44,7 @@ ul {
   }
   .display-container{
     width: 650px;
-    height: 520px;
+    height: 450px;
   }
   .mySlides{
     width: 100%;
@@ -50,7 +53,7 @@ ul {
   }
   .welcome{
     position: absolute;
-    top: 120px;
+    top: 100px;
     left: 730px;
     text-align: center;
     background-color: #162D59;
@@ -68,6 +71,12 @@ ul {
     height: 40px;
     font-size: 1.2em;
     background-color: #fa7d2fee;
+  }
+  .foot{
+    position: relative;
+    color: #F9F1E7;
+    background-color: #162D59;
+    height: 100px;
   }
 }
 /*For Miduim Size windows*/
