@@ -43,8 +43,9 @@ ul {
     background-color: #fa7d2fee;
   }
   .display-container{
-    width: 650px;
+    width: 539px;
     height: 450px;
+    margin-left: 60px;
   }
   .mySlides{
     width: 100%;
@@ -54,10 +55,12 @@ ul {
   .welcome{
     position: absolute;
     top: 100px;
-    left: 730px;
+    left: 670px;
+    box-sizing: border-box;
+    padding: 20px;
     text-align: center;
     background-color: #162D59;
-    width: 490px;
+    width: 539px;
     height:450px;
   }
   h1{
